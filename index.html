@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <nav class="nav">
-      <div id="navitem">Home</div>
-      <div id="navitem">Order</div>
-      <div id="navitem">Food</div>
-      <div id="navitem">Restaurant</div>
-      <div id="navitem">Testimonials</div>
-      <div id="navitem">Contact us</div>
-      <img src="./assets/menu-bar.png" style="height: 1rem" />
-    </nav>
+    <div class="topnav" id="myTopnav">
+      <a href="#" class="active">Home</a>
+      <a href="#">Order</a>
+      <a href="#">Food</a>
+      <a href="#">Restaurant</a>
+      <a href="#">Testimonial</a>
+      <a href="#">Contact Us</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <img src="./assets/menu-bar.png" style="height: 1rem"/>
+      </a>
+    </div>
     <div class="section1">
       <div class="div1">
         <h1 id="title">LOREM IPSUM</h1>
@@ -52,5 +54,6 @@
         </div>
       </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
